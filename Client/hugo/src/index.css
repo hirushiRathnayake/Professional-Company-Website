@@ -21,3 +21,8 @@ a{
   padding-left: 10%;
   padding-right: 10%;
 }
+
+.btn{
+    background: #fff;
+    color: black;
+}
