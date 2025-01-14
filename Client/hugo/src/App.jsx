@@ -12,13 +12,32 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <Hero/>
-      <AboutUs/>
-      <ProductsAndServices/>
-      <NewsAndEvents/>
-      <Career/>
-      <ContactUs/>
-      <Footer/>
+      {/* <Hero/> */}
+      {/* <AboutUs/> */}
+      {/* <ProductsAndServices/> */}
+      {/* <NewsAndEvents/> */}
+      {/* <Career/> */}
+      {/* <ContactUs/> */}
+     
+      <div id="home">
+  <Hero />
+</div>
+<div id="about">
+  <AboutUs />
+</div>
+<div id="products-services">
+  <ProductsAndServices />
+</div>
+<div id="news-events">
+  <NewsAndEvents />
+</div>
+<div id="careers">
+  <Career />
+</div>
+<div id="contact">
+  <ContactUs />
+</div>
+<Footer/>
     </div>
   )
 }

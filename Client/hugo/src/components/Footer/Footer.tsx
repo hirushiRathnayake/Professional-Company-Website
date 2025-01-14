@@ -10,8 +10,10 @@ const Footer = () => {
         </div>
         <div className="footer-links">
           <ul>
+          <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Our Services</a></li>
+            <li><a href="#products-services">Product and Services</a></li>
+            <li><a href="#news-events">News and Events</a></li>
             <li><a href="#careers">Careers</a></li>
             <li><a href="#contact">Contact Us</a></li>
           </ul>
