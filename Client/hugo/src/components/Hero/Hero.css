@@ -5,4 +5,31 @@
     background-size: cover;
     background-position:center ;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+  text-align: center;
+  max-width: 800px;
+
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Add this line */
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
 }
