@@ -9,8 +9,9 @@ const Navbar = () => {
       <ul>
            <li>Home</li>
            <li>About Us</li>
-           <li>Our Services</li>
-           <li>Testimonials</li>
+           <li>Products and Services</li>
+           <li>News and Events</li>
+           <li>Careers</li>
            <li><button className='btn'>Contact Us</button></li>
       </ul>
     </nav>
